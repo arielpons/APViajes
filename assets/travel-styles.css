@@ -267,8 +267,8 @@ h1{
 
 @media only screen and (max-width: 600px) {
 .header{
-	height: 100% !important;
 	background-attachment: inherit;
+	height: 100% !important;
 }
 
 .input-group-text btn{
@@ -279,6 +279,14 @@ h1{
 }
 .col-md-4{
 	margin-block-end: 2em;
+}
+.banner{
+	background-attachment: fixed;
+    background-image: url(images/pirs-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    padding-top: 20%;
 }
 .banner-highlights{
 	padding: 40px 0;
