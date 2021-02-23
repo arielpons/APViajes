@@ -6,7 +6,6 @@
 .header{
 	background-attachment: fixed;
 	background-image: -o-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/logo.jpg");
-	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.6)),to(rgba(0,0,0,0.6))),url("images/logo.jpg");
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/logo.jpg"); 
 	background-position: center;
 	background-size: cover;
@@ -269,6 +268,7 @@ h1{
 @media only screen and (max-width: 600px) {
 .header{
 	height: 100% !important;
+	background-attachment: inherit;
 }
 
 .input-group-text btn{
