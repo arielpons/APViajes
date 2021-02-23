@@ -267,12 +267,25 @@ h1{
 /* mobile fix for header */
 
 @media only screen and (max-width: 600px) {
-	.header{
-		height: 100% !important;
-	}
+.header{
+	height: 100% !important;
+}
 
 .input-group-text btn{
 	color: #fff;
 }	
-
+.header h1{
+	padding-top: 0;
+}
+.col-md-4{
+	margin-block-end: 2em;
+}
+.banner-highlights{
+	padding: 40px 0;
+	margin-top: 150px;
+}
+.footer-logo{
+	display: block;
+	margin: auto;
+}
 } 
