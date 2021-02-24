@@ -263,7 +263,7 @@ h1{
 	text-align: center;
 }
 
-/* mobile fix for header */
+/* mobile fix */
 
 @media only screen and (max-width: 600px) {
 .header{
@@ -299,4 +299,7 @@ h1{
 	display: block;
 	margin: auto;
 }
-
+body{
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+}
