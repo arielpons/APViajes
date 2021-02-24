@@ -281,10 +281,10 @@ h1{
 	margin-block-end: 2em;
 }
 .banner{
-	background: url(images/pirs-2.gif);
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
+	background: url(images/pirs-2.jpg);
+	background-attachment: fixed i !important;
+	background-position: center i !important;
+	background-size: 100% 100vh;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
