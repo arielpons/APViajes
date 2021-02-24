@@ -281,12 +281,15 @@ h1{
 	margin-block-end: 2em;
 }
 .banner{
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
     background-image: url(images/pirs-2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 110vh;
-    padding-top: 20%;
+  }
 }
 .banner-highlights{
 	padding: 40px 0;
@@ -296,4 +299,4 @@ h1{
 	display: block;
 	margin: auto;
 }
-} 
+
