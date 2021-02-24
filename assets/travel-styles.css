@@ -83,15 +83,15 @@ h1{
 	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
 	color:#000;
 	font-weight: 600;
-	height: 60px;
+	height: 70px;
 	left: 20px;
 	position: absolute;
 	text-align: center;
-	width: 60px;
+	width: 70px;
 }
 .text-muted{
 	color: #ffffff;
-	padding-top: 15px;
+	padding-top: 22px;
 	text-align: center;
 }
 .rating{
@@ -281,14 +281,14 @@ h1{
 	margin-block-end: 2em;
 }
 .banner{
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
+	background: url(images/pirs-2.jpg);
 	background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
-    background-image: url(images/pirs-2.jpg);
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
   }
 }
 .banner-highlights{
