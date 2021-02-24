@@ -281,13 +281,14 @@ h1{
 	margin-block-end: 2em;
 }
 .banner{
-	background: url(images/pirs-2.jpg);
+	background: url(images/pirs-2.gif);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
+	-webkit-overflow-scrolling: touch;
 	background-repeat: no-repeat;
   }
 }
